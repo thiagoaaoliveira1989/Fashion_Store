@@ -1,4 +1,5 @@
 import { LandingPage } from "./pages/LadingPage"
+import "./styles/index.css"
 
 function App() {
 
