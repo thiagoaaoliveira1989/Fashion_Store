@@ -1,20 +1,21 @@
-import { BannerSection } from "../../components/BannerSection"
-import { CategoriesSection } from "../../components/CategoriesSection"
-import { Footer } from "../../components/Footer"
-import { FormSection } from "../../components/FormSection"
-import { Header } from "../../components/Header"
-import { ProductsSection } from "../../components/ProductsSection"
+import { BannerSection } from "../../components/sections/BannerSection"
+import { CategoriesSection } from "../../components/sections/CategoriesSection"
+import { FormSection } from "../../components/sections/FormSection"
+
+import { ProductsSection } from "../../components/sections/ProductsSection"
+import { DefaultTemplate } from "../../components/DefaultTemplate"
 
 
 export const LandingPage = () => {
     return (
         <>
-            <Header />
-            <BannerSection />
-            <CategoriesSection />
-            <ProductsSection />
-            <FormSection />
-            <Footer />
+            <DefaultTemplate>
+                <BannerSection />
+                <CategoriesSection />
+                <ProductsSection />
+                <FormSection />
+            </DefaultTemplate>
+
         </>
     )
 }
