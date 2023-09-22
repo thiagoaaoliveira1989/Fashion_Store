@@ -6,6 +6,7 @@
 
     padding: 0 1.5625rem;
     height: 3.75rem;
+    max-width: max-content;
 
     color: var(--color-white);
     background-color: var(--color-black);
