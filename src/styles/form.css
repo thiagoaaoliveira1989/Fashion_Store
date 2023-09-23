@@ -21,7 +21,7 @@
     padding: 1.9375rem;
 
     height: 4.9375rem;
-    width: 37.5rem;
+    width: 100%;
 }
 
 .formulary input[type="text"]::placeholder,
