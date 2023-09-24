@@ -1,13 +1,15 @@
 import { ProductCard } from "./ProductCard";
 import { products } from "../../../data/products";
 
+import styles from "./style.module.css";
+
 export const ProductsSection = () => {
     console.log(products);
     return (
         <div className="container">
-            <section>
+            <section  className={styles.productSection}>
                 <h2 className="title2">PRODUTOS EM DESTAQUE</h2>
-                <ul>
+                <ul className={styles.productList}>
 
                     {
                         products.map((product) => {

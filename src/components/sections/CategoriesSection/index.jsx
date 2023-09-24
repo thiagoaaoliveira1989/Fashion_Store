@@ -1,15 +1,14 @@
 import { CategoryCard } from "./categoryCard"
-import Category1 from "../../../assets/category1.png"
-import Category2 from "../../../assets/category2.png"
 import { categories } from './../../../data/categories';
 
+import styles from "./style.module.css";
 
 export const CategoriesSection = () => {
     return (
         <div className="container">
-            <section>
+            <section className={styles.categoriesSection}>
                 <h2 className="title2">CATEGORIAS</h2>
-                <ul>
+                <ul className={styles.categoriesList}>
                     {
                         categories.map((categorie) => {
                             return (
