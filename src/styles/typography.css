@@ -20,7 +20,9 @@
 
 }
 
-.title2.center{
+.title1.center,
+.title2.center,
+.title3.center {
     text-align: center;
 }
 
