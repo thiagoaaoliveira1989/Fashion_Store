@@ -12,24 +12,18 @@ export const products = [
     },
     {
         id: 1,
-        img: Produto1,
-        name: "Blazer Branco elegante",
-        price: 490
-    },
-    {
-        id: 2,
         img: Produto2,
         name: "Blazer Branco elegante",
         price: 490
     },
     {
-        id: 3,
+        id: 2,
         img: Produto3,
         name: "Blazer Branco elegante",
         price: 490
     },
     {
-        id: 4,
+        id: 3,
         img: Produto4,
         name: "Blazer Branco elegante",
         price: 490
